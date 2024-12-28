@@ -11,6 +11,7 @@ app.get('/', (req,res)=>{
     res.send('Jai Shree Ram');
 })
 
+// db
 require('./db/DB');
 
 // routes
